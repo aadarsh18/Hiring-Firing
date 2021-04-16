@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    /* font-size: 1.2rem; */
+}
+#root{
+    height:100vh;
+}
+.head{
+    background-color:#33b579;
+    /* background-color: white; */
+    position: fixed;
+    height:70px;
+    width:100vw;
+    /* min-height: 7vh; */
+    z-index: 1000;
+    border-bottom: 1px solid rgb(228, 224, 224);
+}
+.links{
+    display: flex;
+}
+.logo-image{
+    float: left;
+    /* width:3rem; */
+    height: 4rem;
+    display: inline;
+    margin-left: 8rem;
+    margin-bottom: 0;
+    opacity: 0.7;
+}
+/* .logo-image{
+    margin-left: 8rem;
+    height: 3rem;
+    width:4.5rem;
+} */
+.nav-links{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    float: right;
+    padding:0 5rem 0 5rem ;
+}
+li{
+    color:white;
+    padding:0 0.3rem 0 0.3rem ;
+}
+.nav-links li{
+    margin-left: 1rem;
+    display: inline;
+}
+.nav-links a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color: #d9d9d9;
+}
+.burger{
+    display: none;
+}
+.burger {
+    float:right;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .links{
+        display: block;
+    }
+    .nav-links li{
+        display: block;
+        margin-top: 2rem;
+    }
+    .logo-image{
+        float: left;
+        /* width:4.5rem; */
+        height: 4rem;
+        display: inline;
+        margin-left: 1rem;
+    }
+    .nav-links{
+        z-index: 900;
+        margin-right:0;
+        color:white;
+        background-color:  #33b579;
+        position: fixed;
+        right:0px;
+        height:43vh;
+        width: 40%;
+        top:7vh;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        opacity: 1;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in; 
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+        margin-top: 1.5rem;
+        size: 2rem;
+    }
+    .burger .icon{
+        width:23px;
+        height: 20px;
+        top:5px;
+    }
+    .nav-active{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+

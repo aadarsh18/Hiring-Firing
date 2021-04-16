@@ -1,0 +1,23 @@
+.MuiFormControl-root {
+    max-width: 100%;
+}
+.MuiFilledInput-root{
+    background-color: #e6e6e6;
+}
+.MuiAlert-standardSuccess{
+    background-color: #33b579 !important;
+}
+.MuiAlert-standardError{
+    background-color: #f44336 !important;
+}
+/* 
+.MuiTypography-displayBlock{
+    margin: 0;
+    width:80%;
+}
+.MuiTypography-body1{
+margin: 0;
+}
+.MuiListItemText-primary{
+    margin: 0;
+} */

@@ -1,0 +1,47 @@
+.jobcard{
+  background-color: white;
+  margin-top: 0.65rem;
+  /* border-radius: 1%; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.MuiBox-root{
+  border-radius: 5px;
+  padding: 0;
+  margin: 1rem 2rem 0.5rem 8rem;
+  /* style={{ borderRadius: "5px", padding: "0", margin: "1rem 2rem 0.5rem 8rem" }} */
+}
+.jobcard-up{
+  display: inline;
+}
+.jobcard-up-line{
+  display: inline;
+}
+#lowcard{
+  margin-left: 1rem;
+  color:#33b579;
+  cursor: pointer;
+}
+
+#lowcard:hover p{
+  color:rgb(241, 197, 114);
+}
+#lowcard a:hover{
+  color:rgb(241, 197, 114);
+}
+.Loading{
+  margin-top: 15%;
+  margin-left: 40%;
+}
+@media screen and (max-width:1000px){
+  .Loading{
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  .MuiBox-root{
+    border-radius: 5px;
+    padding: 0;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    /* style={{ borderRadius: "5px", padding: "0", margin: "1rem 2rem 0.5rem 8rem" }} */
+  }
+}

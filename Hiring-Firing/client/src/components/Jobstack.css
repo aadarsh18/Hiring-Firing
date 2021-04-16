@@ -1,0 +1,63 @@
+.jobstack{
+    position: fixed; left: 10%; top: 10%;right: 10%; bottom: 1%;
+}
+.MuiTableCell-root{
+    text-align: center;
+    font-weight: 900;
+}
+.tableHead{
+    font-size: medium;
+}
+span{
+    color:black;
+}
+svg{
+    color:black;
+}
+.MuiTypography-root .MuiTablePagination-caption .MuiTypography-body2 .MuiTypography-colorInherit{
+    color:black;
+}
+.MuiTableCell-root{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.MuiFormControl-fullWidth{
+    min-width:8rem;
+    max-width: 20rem;
+    /* min-width: 20px; */
+}
+.MuiFormControl-root{
+    min-width:8rem;
+    max-width: 20rem;
+    /* min-width: 20px; */
+}
+.MuiDialog-paperWidthSm{
+    max-width: 800px;
+}
+.MuiIconButton-root{
+    padding: 2px;
+    margin-left: 1rem;
+}
+.MuiTypography-colorInherit{
+    color:black;
+    margin-right: 1rem;
+}
+.MuiTablePagination-spacer{
+    flex:0;
+}
+button{
+    display:inline;
+}
+.clear-filter{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+}
+.MuiAlert-filledError{
+    background-color: #f44336 !important;
+}
+@media screen and (max-width:1000px){
+    .jobstack{
+        position: fixed; left: 0%; top: 10%;right: 0%; bottom: 1%;
+    }
+}

@@ -1,0 +1,77 @@
+.jobboard-parent{
+  position: fixed;
+  width: 100vw;
+}
+.jobboard{
+  float:left;
+  width: 74%;
+  height: 88.5vh;
+}
+  .jobs{
+    width: 100%;
+    float: left;
+  }
+  .sorting-filters{
+    height: 88.5vh;
+    z-index:400;
+    border-radius: 1%;
+    width: 100%;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+.filter-button{
+  display: none;
+}
+.pagination{
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  width:2rem;
+  height: 2rem;
+}
+.pagination-wraper{
+  margin-bottom: 8rem;
+}
+/* .Loading{
+  height: 10rem;
+  width: 10rem;
+} */
+@media screen and (max-width:1000px){
+  .jobboard{
+    width: 100%;
+  }
+  .jobs{
+    z-index: 300;
+    height: 88.5vh;
+    width: 100%;
+    float: left;
+    overflow: auto;
+    z-index: 300;
+    display: inline;
+    position: fixed;
+  }
+  .filter-button{
+    display: block;
+    left: 0.5rem;
+    bottom: 1rem;
+    margin-top:1rem;
+    position: fixed;
+    z-index: 500;
+  }
+  .sorting-filters{
+    
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in; 
+    display: none;
+  }
+  .show-sorting{
+    background-color: #f2f2f2;
+    position: fixed;
+    transform: translateX(0%);
+    z-index: 400;
+    display: inline;
+    float: right;
+    right:0;
+    width:60%;
+  }
+}
